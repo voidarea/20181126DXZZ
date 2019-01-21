@@ -4,12 +4,7 @@
 body, input, textarea, button {
     font-family: Helvetica, STHeiti STXihei, Microsoft YaHei, Arial;
 }
-
-#weapp, body, html {
-    height: 100%;
-    overflow: hidden;
-}
-
+ 
 * {
     box-sizing: border-box;
 }
