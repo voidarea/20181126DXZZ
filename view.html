@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1,user-scalable=no,maximum-scale=1,initial-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SHENGTANG</title>
+<link rel="stylesheet" href="weui/weui.min.css">
+<link rel="stylesheet" href="weui/jquery-weui.min.css">
+<link rel="stylesheet" href="css/iconfont.css">
+<link rel="stylesheet" href="css/Udiy.css">
+<link rel="stylesheet" href="css/weui-diy0405.css"  type="text/css">
+</head>
+
+<body style="background-color:#efeff4" class="bbn">
+	<div id="weapp">
+  <div class="weapp-content bs"><!--按钮高度BS--->
+    <div class="we_full_inner">
+<!--轮播-->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/5825a5a6Nde8ecb75.jpg!q70.jpg" /></div>
+    <!--下面JS请求服务端调图片-->
+    <div class="swiper-slide"><img src="images/5825a5a6Nde8ecb75.jpg!q70.jpg" /></div>
+    <div class="swiper-slide"><img src="images/5825a5a6Nde8ecb75.jpg!q70.jpg" /></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+<!--轮播end-->
+<div class="buy_area">
+  <div class="fn_wrap">
+    <h1 class="fn"   style="font-size: 16px;">企业团购林家铺子 果锦 糖水黄桃罐头425g*12罐/一箱  16101301001</h1>
+    <h1  style="color: #f63a3a; font-size: 12px; line-height: 14px; margin-top: 6px">即日起购买一箱罐头就送一只不锈钢水果叉！由于发货成本 新疆 西藏  青海 内蒙 宁夏  海南  贵州  广西 云南 黑龙江 甘肃不发货</h1>
+  </div>
+  <div class="price_wrap" style="position:relative">
+    <span class="price">￥<span id="userPrice">69</span></span>
+  </div>
+</div>
+<!--规格-->
+<div class="sku_container sku_container_on">
+  <div class="sku_wrap">
+    <div id="prop-list">
+    </div>
+    <div class="sku sku_num">
+      <h3>数量：</h3>
+      <div class="num_wrap">
+        <span class="minus minus_disabled weui-count__decrease" id="minusNum"></span>
+        <input class="num weui-count__number" id="buyNum" type="tel" value="1">
+        <span class="plus weui-count__increase" id="addNum"></span>
+        <input type="hidden" id="hiddenStore" value="3349">
+        <input type="hidden" id="hiddenBuyNum" value="0">
+        <input type="hidden" id="hiddenMemberBuyLimit" value="1000000">
+        <script type="text/template" id="hidcustomField">{"count":0,"data":[]}</script>
+      </div>
+      <div class="stock_num">
+        <div class="inner">
+          <div id="skuStock"><span id="stock-num">库存充足</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+ 
+          <a class="weui-cell weui-cell_access" href="address.html" style="font-size: 14px">
+            <div class="weui-cell__bd">
+              <p>选择地址</p>
+            </div>
+            <div class="weui-cell__ft mh">&nbsp;</div>
+          </a>
+       
+	
+</div>
+<!--规格end-->
+
+
+<div class="view">
+  <div class="dfs" id="warePack" >
+    <p><img src="images/dss.jpg" style="width: 100%"></p>
+    <p><img src="images/dss.jpg" style="width: 100%"></p>
+    <p><img src="images/dss.jpg" style="width: 100%"></p>
+  </div>
+</div>
+
+		
+	 
+		
+	
+	  </div>
+	</div>
+		<div class="weui-tabbar" >
+		<div class="item-action" >
+  <div class="active-contact diy">
+    <a href="splist.html"><span class="icon"></span>首页</a>
+  </div>
+  <div class="go-store diy">
+    <a href="javascript:;" class="open-popup" data-target="#cart"><span class="icon" style="position:relative">
+    <i style="display:block;" class="plmus">3</i>
+    </span>购物车</a>
+  </div>
+  <div class="buy-now-j">
+    <a href="javascript:;" style="display:block; color:#fff; font-size:16px"> 加入购物车</a>
+  </div>
+  <div class="buy-now">
+    <a href="order-w.html" style="display:block; color:#fff; font-size:16px"> 立即下单</a>
+  </div>
+</div>
+	</div></div>
+	<div id="cart" class="weui-popup__container popup-bottom"  >
+      <div class="weui-popup__overlay"></div>
+      <div class="weui-popup__modal">
+        <div class="toolbar">
+          <div class="toolbar-inner">
+            <a href="javascript:;" class="picker-button close-popup">关闭</a>
+            <h1 class="title">我的购物车</h1>
+          </div>
+        </div>
+        <div class="modal-content">
+          <div class="weui-cells" style="font-size: 16px;">
+            <div class="weui-cell weui-cell_swiped">
+              <div class="weui-cell__bd">
+                <div class="weui-cell">
+                  <div class="weui-cell__hd"><img src="images/5825a5a6Nde8ecb75.jpg!q70.jpg" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                  <div class="weui-cell__bd">
+                    <div style="font-size: 12px;width: 50%;position: absolute;line-height: 27px;">
+						<div style=" text-overflow:ellipsis;white-space:nowrap; overflow:hidden;display:inline-block;width:90%; ">清风纸巾12包装清风纸巾12包装清风纸巾12包装清风纸巾12包装</div>
+					  </div>
+					  <div class="weui-cell__ft">
+                    <span class="price">￥24.00</span>
+                    <div class="weui-count">
+                      <a class="weui-count__btn weui-count__decrease"></a>
+                      <input class="weui-count__number" type="number" value="1">
+                      <a class="weui-count__btn weui-count__increase"></a>
+                    </div>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="weui-cell__ft">
+                <a class="weui-swiped-btn weui-swiped-btn_warn delete-swipeout" href="javascript:">删除</a>
+                <a class="weui-swiped-btn weui-swiped-btn_default close-swipeout" href="javascript:">关闭</a>
+              </div>
+            </div>
+            <div class="weui-cell weui-cell_swiped">
+              <div class="weui-cell__bd">
+                <div class="weui-cell">
+                  <div class="weui-cell__hd"><img src="images/5825a5a6Nde8ecb75.jpg!q70.jpg" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                   <div class="weui-cell__bd">
+                    <div style="font-size: 12px;width: 50%;position: absolute;line-height: 27px;">
+						<div style=" text-overflow:ellipsis;white-space:nowrap; overflow:hidden;display:inline-block;width:90%; ">清风纸巾12包装清风纸巾12包装清风纸巾12包装清风纸巾12包装</div>
+					  </div>
+					  <div class="weui-cell__ft">
+                    <span class="price">￥24.00</span>
+                    <div class="weui-count">
+                      <a class="weui-count__btn weui-count__decrease"></a>
+                      <input class="weui-count__number" type="number" value="1">
+                      <a class="weui-count__btn weui-count__increase"></a>
+                    </div>
+                  </div>
+                  </div> 
+                </div>
+              </div>
+              <div class="weui-cell__ft">
+                <a class="weui-swiped-btn weui-swiped-btn_warn delete-swipeout" href="javascript:">删除</a>
+                <a class="weui-swiped-btn weui-swiped-btn_default close-swipeout" href="javascript:">关闭</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="summary">
+          2 件商品, 共计 <strong>123.5</strong> 元
+        </p>
+		  
+		   <div class="hgsnm"><a href="order-w.html" class="weui-btn weui-btn_primary close-popup">立即下单</a></div> 
+		  
+      </div>
+    </div>
+	
+</body>
+<script src="weui/jquery.min.js"></script>
+<script src="weui/jquery-weui.min.js"></script>
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script src="weui/swiper.min.js"></script>
+<script src="weui/city-picker.min.js"></script>
+<script>
+  $(".swiper-container").swiper({
+	loop: true,
+	autoplay: 3000
+  });
+$('.swiper-slide').click(function() {
+	pd.open();
+});
+var pd = $.photoBrowser({
+	items: [
+		'images/5825a5a6Nde8ecb75.jpg!q70.jpg',
+		'images/5825a5a6Nde8ecb75.jpg!q70.jpg',
+		'images/5825a5a6Nde8ecb75.jpg!q70.jpg',
+	]
+});
+</script>
+	<script>
+      var MAX = 99, MIN = 1;
+      $('.weui-count__decrease').click(function (e) {
+        var $input = $(e.currentTarget).parent().find('.weui-count__number');
+        var number = parseInt($input.val() || "0") - 1
+        if (number < MIN) number = MIN;
+        $input.val(number)
+      })
+      $('.weui-count__increase').click(function (e) {
+        var $input = $(e.currentTarget).parent().find('.weui-count__number');
+        var number = parseInt($input.val() || "0") + 1
+        if (number > MAX) number = MAX;
+        $input.val(number)
+      })
+    </script>
+</html>

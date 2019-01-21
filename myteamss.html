@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1,user-scalable=no,maximum-scale=1,initial-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>团队业绩</title>
+<link rel="stylesheet" href="weui/weui.min.css">
+<link rel="stylesheet" href="weui/jquery-weui.min.css">
+<link rel="stylesheet" href="css/iconfont.css">
+<link rel="stylesheet" href="css/Udiy.css">
+</head>
+
+<body>
+<div id="weapp">
+  <div class="weapp-content by"><!--当没有导航的时候，添加by样式-->
+    <div class="we_full_inner">
+      <!--内容-->
+  
+		 	<div class="hhr-ct">
+<p class="hhr-title">本期综合业绩</p>
+<p class="hhr-number"><b>15300.00</b></p>
+
+			 <select  style="position: absolute;right:15px;top:16px; z-index: 999;-webkit-appearance: none; padding: 0px 10px; border-radius: 0px; border:1px solid #999; background-color: #fff ">
+				 <option>第三期</option>		  
+		   <option>第二期</option>
+		    <option>第一期</option>
+	    </select>
+		
+</div>
+		
+		
+		
+	 <div class="woas">
+        <div class="weui-form-preview" style="margin-bottom: 10px">
+			 
+      <div class="weui-form-preview__hd">
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label">   <i class="icon iconfont icon-team"></i>团队业绩金额</label>
+          <em class="weui-form-preview__value was">¥2400.00</em>
+        </div>
+      </div>
+      <div class="weui-form-preview__bd">
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label">团队人数</label>
+          <span class="weui-form-preview__value">2</span>
+        </div>
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label">产品数量</label>
+          <span class="weui-form-preview__value">80</span>
+        </div>
+    
+      </div>
+      <div class="weui-form-preview__ft">
+        <a class="weui-form-preview__btn weui-form-preview__btn_primary" href="myteamssdetailed.html" style="color: #111">查看业绩详情</a>
+      </div>
+    </div>
+		<div class="weui-form-preview"  style="margin-bottom: 10px">
+      <div class="weui-form-preview__hd">
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label"><i class="icon iconfont icon-addteam"></i>直属业绩金额</label>
+          <em class="weui-form-preview__value was">¥2400.00</em>
+        </div>
+      </div>
+      <div class="weui-form-preview__bd">
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label">直属人数</label>
+          <span class="weui-form-preview__value">2</span>
+        </div>
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label">产品数量</label>
+          <span class="weui-form-preview__value">80</span>
+        </div>
+    
+      </div>
+      <div class="weui-form-preview__ft" >
+        <a class="weui-form-preview__btn weui-form-preview__btn_primary" href="myteamssdetailed.html" style="color: #111">查看业绩详情</a>
+      </div>
+    </div><div class="weui-form-preview"  style="margin-bottom: 10px">
+      <div class="weui-form-preview__hd">
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label"><i class="icon iconfont icon-user"></i>个人金额</label>
+          <em class="weui-form-preview__value was">¥2400.00</em>
+        </div>
+      </div>
+      <div class="weui-form-preview__bd">
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label">个人人数</label>
+          <span class="weui-form-preview__value">2</span>
+        </div>
+        <div class="weui-form-preview__item">
+          <label class="weui-form-preview__label">产品数量</label>
+          <span class="weui-form-preview__value">80</span>
+        </div>
+    
+      </div>
+      <div class="weui-form-preview__ft">
+        <a class="weui-form-preview__btn weui-form-preview__btn_primary" href="myteamssdetailed.html" style="color: #111">查看业绩详情</a>
+      </div>
+    </div>
+	</div>	 
+			 	 
+         
+            
+		 
+		
+      <!--内容-->
+    </div>
+  </div>
+</div>
+</body>
+<script src="weui/jquery.min.js"></script>
+<script src="weui/jquery-weui.min.js"></script>
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script src="weui/swiper.min.js"></script>
+<script src="weui/city-picker.min.js"></script>	 
+	<script>
+      $("#date").calendar({
+        onChange: function (p, values, displayValues) {
+          console.log(values, displayValues);
+        }
+      });
+      $("#date2").calendar({
+        value: ['2016-12-12'],
+        dateFormat: 'yyyy年mm月dd日'  // 自定义格式的时候，不能通过 input 的value属性赋值 '2016年12月12日' 来定义初始值，这样会导致无法解析初始值而报错。只能通过js中设置 value 的形式来赋值，并且需要按标准形式赋值（yyyy-mm-dd 或者时间戳)
+      });
+      $("#date-multiple").calendar({
+        multiple: true,
+        onChange: function (p, values, displayValues) {
+          console.log(values, displayValues);
+        }
+      });
+      $("#date3").calendar({
+        container: "#inline-calendar"
+      });
+    </script>
+</html>

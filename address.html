@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1,user-scalable=no,maximum-scale=1,initial-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>地址选择</title>
+<link rel="stylesheet" href="weui/weui.min.css">
+<link rel="stylesheet" href="weui/jquery-weui.min.css">
+<link rel="stylesheet" href="css/iconfont.css">
+<link rel="stylesheet" href="css/Udiy.css">
+<link rel="stylesheet" href="css/weui-diy0405.css"  type="text/css">
+</head>
+
+<body>
+<div id="weapp">
+  <div class="weapp-content kg"><!--kg按钮高度-->
+    <div class="we_full_inner">
+      <!--内容-->     
+       
+		<div class="weui-cells weui-cells_checkbox dizhiyo kgh">
+			
+			
+      <label class="weui-cell weui-check__label" for="s11">
+        <div class="weui-cell__hd">
+          <input type="checkbox" class="weui-check" name="" id="s11" checked="checked">
+          <i class="weui-icon-checked"></i>
+        </div>
+        <div class="weui-cell__bd">                   
+		 <div class="weui-cell weui-cell_swiped ">
+            <div class="weui-cell__bd" style="transform: translate3d(0px, 0px, 0px);">              
+                <div class="weui-cell__bd kl">
+                  <p class="kl1">小明<span class="kk">1508875554</span></p>
+					<p class="klo">浙江省杭州市滨江区杭州大厦222号</p>
+                </div>
+                <div class="weui-cell__ft"></div>
+               
+            </div>
+            <div class="weui-cell__ft">
+              <a class="weui-swiped-btn weui-swiped-btn_warn delete-swipeout" href="javascript:">删除</a>
+              <a class="weui-swiped-btn weui-swiped-btn_default close-swipeout" href="javascript:">修改</a>
+            </div>
+          </div>
+        </div>
+      </label>
+      <label class="weui-cell weui-check__label" for="s12">
+        <div class="weui-cell__hd">
+          <input type="checkbox" name="" class="weui-check" id="s12">
+          <i class="weui-icon-checked"></i>
+        </div>
+         <div class="weui-cell__bd">                   
+		 <div class="weui-cell weui-cell_swiped">
+            <div class="weui-cell__bd" style="transform: translate3d(0px, 0px, 0px);">              
+                <div class="weui-cell__bd kl">
+                  <p class="kl1">小明<span class="kk">1508875554</span></p>
+					<p class="klo">浙江省杭州市滨江区杭州大厦222号</p>
+                </div>
+                <div class="weui-cell__ft"></div>
+               
+            </div>
+            <div class="weui-cell__ft">
+              <a class="weui-swiped-btn weui-swiped-btn_warn delete-swipeout" href="javascript:">删除</a>
+              <a class="weui-swiped-btn weui-swiped-btn_default close-swipeout" href="javascript:">修改</a>
+            </div>
+          </div>
+        </div>
+      </label>
+     
+    </div>
+	 <!--内容--> 
+		
+		
+    </div>
+  </div> 
+	
+	
+	<div class="weui-tabbar">
+		<div class="item-action"> 
+  <div class="buy-now">
+    <a href="view.html" style="display:block; color:#fff; font-size:16px"> 确定</a>
+  </div>
+	<div class="xinz diy">
+    <a href="addressnew.html"><span class="icon"></span>新增地址</a>
+  </div>
+</div>
+		</div>
+	
+</div>
+</body>
+<script src="weui/jquery.min.js"></script>
+<script src="weui/jquery-weui.min.js"></script>
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script src="weui/swiper.min.js"></script>
+<script src="weui/city-picker.min.js"></script>
+	<script>
+      $('.delete-swipeout').click(function () {
+        $(this).parents('.weui-cell').remove()
+      })
+      $('.close-swipeout').click(function () {
+        $(this).parents('.weui-cell').swipeout('close')
+      })
+      $("#open").click( function () { $("#swipe1").swipeout('open') })
+      $("#close").click( function () { $("#swipe1").swipeout('close') })
+      $("#swipe1").click( function () { console.log('click') })
+    </script>
+</html>
