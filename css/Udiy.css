@@ -3,6 +3,9 @@
 
 body, input, textarea, button {
     font-family: Helvetica, STHeiti STXihei, Microsoft YaHei, Arial;
+	 
+    background-color: #f1efed;
+ 
 }
  
 * {
