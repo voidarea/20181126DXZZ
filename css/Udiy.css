@@ -1106,3 +1106,129 @@ a.linkk {
 .jgg.ge5 .weui-grid {width: 20%;text-align: center;}.jgg.ge5 .weui-grid__label { text-align: center; font-size: 12px;}.jgg.ge5 .weui-grid__label.ss { font-size: 14px; line-height: 20px; color: #ef0d0d;
 }
 .weui-tabbar{ position: fixed }
+.weui-grid:active{ background-color: transparent}
+
+
+
+
+
+
+
+/**公告diy**/
+.bob-es {
+    padding: 4px 10px
+}
+.bob-express-news {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    position: relative;
+    background-color: #fff;
+}
+.bob-express-news .bob-news-tit {
+    width: 82px;
+    height: 30px;
+    display: block;
+    position: absolute
+}
+.bob-express-news .bob-news-tit span {
+    background-color: #ffc500;
+    padding: 1px 4px;
+    margin: 0px 4px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+.bob-express-news .news-list-wrapper {
+    padding: 0 15px 0 83px;
+    height: 30px;
+    overflow: hidden;
+}
+.news-list {
+    position: relative;
+}
+.bob-express-news .news-item {
+    margin: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+     
+}
+.personal-bob{}
+.personal-bob .bob-express-news .bob-news-tit {
+    width: 42px;
+    height: 30px;
+    display: block;
+    position: absolute;background-color: #FBBD00; z-index: 999;
+}
+
+ 
+.personal-bob .bob-express-news .news-list-wrapper {
+    padding: 0 10px 0 42px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.personal-bob  .bob-express-news {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    position: relative;
+    background-color:#FBBD00;
+}
+
+
+.personal-bob .news-item{   position: absolute;
+    top: 0;
+    left: 110%;
+    line-height: 30px; color: #fff;
+    display: block;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.personal-bob .bob-news-tit .icon.coloriconfont{ width: 40px;height: 18px; color: #fff }
+
+.personal-bob.st  .bob-express-news .bob-news-tit{background-color: #3a3a3a;}/**stdiy**/
+.personal-bob.st .bob-express-news{background-color: #3a3a3a;}/**stdiy**/
+.personal-bob.st .bob-express-news .bob-news-tit{width: 72px}
+
+.personal-bob.st .bob-express-news .news-list-wrapper {
+    padding: 0 10px 0 72px;
+  
+}
+.personal-bob.st .bob-express-news .bob-news-tit span { padding:0px 0px 0px 4px;background-color: transparent;   }
+
+
+
+
+
+
+/**排行榜**/
+.pjkks{}
+.pjkk{width: 28px;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    text-indent:3px;   }
+
+.pjkks  .pjkk.weui-cell__hd img{ margin-right:0px; display: block; width:16px;border-radius:0px;}
+.pjkks .weui-cell__hd img{ margin-right:8px; display: block; width:30px; border-radius: 100%;}
+
+.pjkks .weui-cell{ padding-top:15px; padding-bottom:15px; font-size: 14px  }
+
+.ds-w{ background-color:#ffc800; padding:6px 10px; color: #fff;font-size: 14px }
+
+.pjkks .weui-cell__ft span{ color:#E10003}
+
+
+
+
+
+
+
+
+
+
+
